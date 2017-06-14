@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by danielmalone on 6/13/17.
@@ -14,9 +14,9 @@ import java.util.ArrayList;
 
 class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
 
-    ArrayList<User> mUsers;
+    List<User> mUsers;
 
-    public MainAdapter(ArrayList<User> users) {
+    public MainAdapter(List<User> users) {
         mUsers = users;
     }
 
